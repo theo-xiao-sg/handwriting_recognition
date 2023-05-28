@@ -27,3 +27,12 @@ python -m pip install -r requirements.txt
 * Then, please click the key `Clear` to clear the canvas before you try the next number.
 * Try all the numbers you like.
 * I hope you are impressed by this tool by now!
+
+## Results Illustration
+
+* I have made a video `handwriting_recog_demo.mp4` and animated images file `handwriting_recog_demo.gif` to illustrate the number recognition tool. 
+* If you use windows pc, you can open `handwriting_recog_demo.mp4` by Media Player, or most browsers, including Chrome and Edge.
+* If you use windows pc, you can open `handwriting_recog_demo.gif` by Photos, or most browsers, including Chrome and Edge. You should not use Paint since it only opens the 1st image.
+* I hope you are impressed by this tool as I was!
+
+
