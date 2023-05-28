@@ -30,9 +30,10 @@ python -m pip install -r requirements.txt
 
 ## Results Illustration
 
-* I have made a video `handwriting_recog_demo.mp4` and animated images file `handwriting_recog_demo.gif` to illustrate the number recognition tool. 
-* If you use windows pc, you can open `handwriting_recog_demo.mp4` by Media Player, or most browsers, including Chrome and Edge.
-* If you use windows pc, you can open `handwriting_recog_demo.gif` by Photos, or most browsers, including Chrome and Edge. You should not use Paint since it only opens the 1st image.
+* I have made an animated images file `handwriting_recog_demo.gif` and a video file `handwriting_recog_demo.mp4` to illustrate the number recognition tool. Both files are saved in the folder `results`.
+* You can go to the folder `results` and simply click the file `handwriting_recog_demo.gif` in Github. You can immediately see how powerful this number recognition tool.
+* If you download everything and use windows pc, you can open `handwriting_recog_demo.mp4` by Media Player, or most browsers, including Chrome and Edge.
+* If you download everything and use windows pc, you can open `handwriting_recog_demo.gif` by Photos, or most browsers, including Chrome and Edge. You should not use Paint since it only opens the 1st image.
 * I hope you are impressed by this tool as I was!
 
 
