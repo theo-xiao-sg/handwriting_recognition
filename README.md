@@ -8,7 +8,7 @@ This project is based on the Python programming language and primarily utilizes 
 
 ### Environment Setup
 
-download the requirements.txt and install required Python libraries. please note all my 4 projects share the same requirements.txt. if you have done the installation for one project, you can skip it for the other 3 project
+download the requirements.txt and install required Python libraries. please note all my 4 projects share the same requirements.txt. if you have done the installation for one project, you can skip it for the other 3 projects
 
 ```bash
 # install all packages using requirements.txt
