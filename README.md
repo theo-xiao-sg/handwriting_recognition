@@ -1,6 +1,6 @@
 # recognition of handwriting digits by using mouse click
 
-This project is an AI agent trained using KNN and Neural Network model to recognize handwriting digits (written by mouse click) 
+This project is an AI agent trained using KNN and Neural Network model to recognize handwriting digits. The numbers are written by mouse left click in the pygame window. 
 
 ## Running Guide
 
