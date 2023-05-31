@@ -17,7 +17,7 @@ python -m pip install -r requirements.txt
 
 ### Training the Model
 
-* If you want to train your model, you can run `KNN_model.py` or `neural_network_model.py` in the folder. The model will train itself using 1447 images in the folder `images_training`. I have selected the best model parameters for you in the codes but you can always try yourselves with a set of parameters. For `KNN_model.py`, you can amend the line 29. For `neural_network_model.py`, you can amend the line 31.
+* If you want to train your model, you can run `KNN_model.py` or `neural_network_model.py` in the folder. The model will train itself using 70% of the total 1447 images in the folder `images_training`. I have selected the best model parameters for you in the codes but you can always try yourselves with a set of parameters. For `KNN_model.py`, you can amend the line 29. For `neural_network_model.py`, you can amend the line 31.
 * Then, the trained model file saved in a pickle file, either `handwriting_knn.pkl` or `handwriting_knn.pkl`, will be generated in the folder.
 
 ### Try the recognition tool
