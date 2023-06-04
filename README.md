@@ -1,6 +1,7 @@
 # Recognition of Handwriting Numbers
 
 This project is an AI agent trained using KNN and Neural Network model to recognize handwriting numbers. The numbers are drawn in real-time by holding down the left mouse button in the Pygame window. 
+Please read my project descriptions here https://theo-xiao-sg.github.io/handwriting_recognition.html
 
 ## Running Guide
 
