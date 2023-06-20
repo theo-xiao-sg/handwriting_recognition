@@ -23,8 +23,9 @@ python -m pip install -r requirements.txt
 
 ### Try the recognition tool
 
-* Run `testing.py` to try KNN and NN models, a pygame window will show up. In the line 8 of `testing.py`, I have chosen the model which I like the most and it is a Neural Network model. If you like, you can try the other KNN model or any model you trained by amending the line 7 or 8 of `testing.py`.
-* To try CNN model, you need to run `testing_cnn.py` since the images are reshaped differently from KNN and NN.
+* To try CNN model, you need to run `testing_cnn.py`, and then a pygame window will show up. The CNN model is the best in the three models and acchieve 98-99% accuracy in this case. You should definitely try it.
+* To try KNN and NN models, you need to run `testing.py` since the images are reshaped differently from CNN. In the line 8 of `testing.py`, I have chosen the model which I prefer and it is a Neural Network model. If you like, you can try the other KNN model or any model you trained by amending the line 7 or 8 of `testing.py`.
+
 * Hold down the left mouse button and draw a number from 0 to 9, and click the key `Detect`, then you get the recognized number using the AI model you just trained. I hope it is a correct recognition. For me, most of the tests came with correct answers. 
 * Then, please click the key `Clear` to clear the canvas before you try the next number.
 * Try all the numbers you like.
