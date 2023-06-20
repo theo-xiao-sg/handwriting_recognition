@@ -6,8 +6,9 @@ import numpy as np
 
 # model = joblib.load('handwriting_knn.pkl')
 model = joblib.load('handwriting_NeuralNetwork.pkl')
+# model = joblib.load('cnn.pkl')
 
-image_size = 50
+image_size = 32
 
 WIDTH = 800
 HEIGHT = 540
@@ -41,10 +42,12 @@ def on_mouse_down(pos):
         pygame.image.save(screen.surface, 'image_to_recognise.png')
 
         # the same operation as in model training, convert the image to black and white
-        img = Image.open('image_to_recognise.png').convert('1')
+        img = Image.open('image_to_recognise.png').convert('L')
         new = img.crop((20, 20, 520, 520))
         # resize image to 50*50 pixels which is the same as the resized training image
         img = new.resize((image_size, image_size))
+        img = np.array(img).astype('float32')
+        img = img / 255.0
         img_num = np.array(img)
         # reshape the image to 1*2500 to match the training data
         img_num = img_num.reshape(1, image_size*image_size)
